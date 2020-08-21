@@ -1,0 +1,162 @@
+/*Base Styles*/
+
+body{
+  background: #66CDAA;
+  font-family: 'Alata', sans-serif;
+  color: #a1a1a1;
+  font-size: 12px;
+  line-height: 16px;
+}
+/*Header section*/
+
+header {
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  padding: 40px 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #4587de;
+  text-transform: uppercase;
+}
+
+header img {
+  margin-right: 16px;
+}
+
+main {
+  width: 1000px;
+  margin:0 auto;
+}
+ /*cards and images*/
+
+ .card {
+   margin-top: 25px;
+   overflow: auto;
+ }
+
+.image {
+  float: left;
+  width: 500px;
+  height:550px;
+}
+
+.recipe {
+  float: left;
+  padding: 20px;
+  width: 500px;
+  height: 550px;
+  background: white;
+  box-sizing: border-box;
+
+}
+
+.links a{
+  padding-left: 3px;
+  color: #a1a1a1;
+}
+#bacon .image {
+background-image: url('../img/carrot-bacon.png');
+background-size: cover;
+}
+
+#scramble .image{
+  background-image: url('../img/tofu-scramble.png');
+  background-size: cover;
+}
+
+#pancake .image {
+  background-image: url('../img/pancake.png');
+  background-size: cover;
+}
+ /*times and titles*/
+
+.recipe h2 {
+  margin-top: 0;
+   color: #4587de;
+   font-size: 24px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   line-height: 29px;
+   text-transform: uppercase;
+ }
+
+ .time {
+   margin-bottom: 20px;
+   border: 1px solid #f84525;
+   overflow: auto;
+ }
+
+ .time div {
+   float: left;
+   padding-left: 6px;
+   width: 33.333%;
+   box-sizing: border-box;
+   text-transform: uppercase;
+ }
+
+.time .cook {
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #ffc500;
+}
+
+.time img{
+  width: 15px;
+  height: auto;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.time-details {
+  display: inline-block;
+}
+
+.time strong {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Ingredients and Directions*/
+
+.columns {
+  overflow: auto;
+}
+
+.directions {
+  float: left;
+  width: 240px;
+}
+
+.ingredients {
+  float: left;
+  width: 205px;
+  margin-right: 8px;
+}
+
+.recipe h3 {
+  padding: 6px;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #f84525;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffc500;
+  text-transform: uppercase
+}
+
+.ingredients ul {
+  padding-left: 15px;
+  line-height: 20px;
+  list-style-type: square;
+}
+
+.directions ol {
+  padding-left: 5px;
+  line-height: 20px;
+}
